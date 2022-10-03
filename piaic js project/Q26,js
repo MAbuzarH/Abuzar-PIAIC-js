@@ -1,0 +1,14 @@
+console.log("\t 1st Version \t");
+let alien_Colour = "green";
+if (alien_Colour == "green") {
+  console.log("Player Earned 5 Points");
+} else {
+  console.log("Player Earned 10 Points");
+}
+console.log("\t 2nd Version \t");
+alien_Colour = "yellow";
+if (alien_Colour == "green") {
+  console.log("Player Earned 5 Points");
+} else {
+  console.log("Player Earned 10 Points");
+}

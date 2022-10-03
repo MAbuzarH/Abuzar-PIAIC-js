@@ -1,0 +1,15 @@
+let cities = ["Iran", "Iraq", "UAE", "China"];
+console.log(cities, "<==Original Array");
+console.log("Alphabetic Order :");
+console.log(cities.slice().sort());
+console.log("Reverse Alphabetic Order :");
+console.log(cities.slice().sort().reverse());
+console.log("Reverse Order :");
+console.log(cities.slice().reverse());
+console.log(cities, "<==Original Array");
+console.log("Alphabetic Order :");
+console.log(cities.sort());
+console.log(cities, "<== Original Array has changed");
+console.log("Reverse Order :");
+console.log(cities.reverse());
+console.log(cities, "<== Original Array has changed");
